@@ -1,0 +1,42 @@
+//Colors
+//Primary
+$limaGreen : hsl(163, 72%, 41%);
+$brightRed : hsl(356, 69%, 56%);
+
+// social
+$fb : hsl(208, 92%, 53%);
+$tw : hsl(203, 89%, 53%);
+$insta : linear-gradient( hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+$yt : hsl(348, 97%, 39%);
+
+// dark theme toggle
+$darkToggle :(hsl(210, 78%, 56%) hsl(146, 68%, 55%));
+// light theme toggle
+$lightToggle :hsl(230, 22%, 74%);
+
+// dark theme colors
+.theme-dark {
+    --Bg : hsl(230, 17%, 14%);
+    --PatternBg : hsl(232, 19%, 15%);
+    --CardBg : hsl(228, 28%, 20%);
+    --CardHv :rgba(139, 151, 198,0.5);
+    --Text1 :hsl(228, 34%, 66%);
+    --Text2 : hsl(0, 0%, 100%);
+}
+
+.theme-light {
+    --Bg : hsl(0,0%, 100%);
+    --PatternBg : hsl(225, 100%, 98%);
+    --CardBg : hsl(227, 47%, 96%);
+    --CardHv : rgba(99, 104, 126,0.5);
+    --Text1 : hsl(228, 12%, 44%);
+    --Text2 : hsl(230, 17%, 14%);
+
+}
+
+// font size
+$font-xm: 0.75rem; // 12px 
+$font-sm: 0.875rem; // 14px
+$font-med : 1.5rem; //24px
+$font-lg : 2.1875rem; //35px
+$font-xlg : 3.5rem; //56px
